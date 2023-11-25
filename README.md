@@ -2,9 +2,10 @@
 
 ## Overview
 
--This project is designed to automatically detect commercials on a TV screen, mute the audio, and unmute when the commercial ends. The system involves a hardware setup with an Arduino to control the TV's mute function and software scripts for capturing frames, labeling data, training an SVM classifier, implementing a memory-based method for continuous state assessment, and a live predictor for real-time applications.
--You will need, Arduino (capable of pwm), an HDMI splitter, appropriate number of hdmi cables, and an HDMI capture card
--From the Cablebox, attach an HDMI cable to the input of the splitter, and from the output end of the splitter, attach one cord to the TV, and the other into a capture card, then into the laptop/microcontroller
+<p>This project is designed to automatically detect commercials on a TV screen, mute the audio, and unmute when the commercial ends. The system involves a hardware setup with an Arduino to control the TV's mute function and software scripts for capturing frames, labeling data, training an SVM classifier, implementing a memory-based method for continuous state assessment, and a live predictor for real-time applications.
+<p>You will need, Arduino (capable of pwm), an HDMI splitter, appropriate number of hdmi cables, and an HDMI capture card
+<p>From the Cablebox, attach an HDMI cable to the input of the splitter, and from the output end of the splitter, attach one cord to the TV, and the other into a capture card, then into the laptop/microcontroller
+
 ## Files
 
 ### 1. `capture_frames.py`
